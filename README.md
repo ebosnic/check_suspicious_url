@@ -34,21 +34,24 @@ Designed for security enthusiasts, IT engineers, and phishing triage.
 
 ```bash
 git clone https://github.com/ebosnic/check_suspicious_url.git
-cd check_suspicious_url```
+cd check_suspicious_url
+```
 
 2. Make the script executable
 
-```chmod +x check_suspicious_url.sh```
+```bash
+chmod +x check_suspicious_url.sh
+```
 
 3. Edit your VTP_API_KEY
-
 4. Usage 
 
-```./check_suspicious_url.sh "https://example.com/suspicious.html" ```
+```bash
+./check_suspicious_url.sh "https://example.com/suspicious.html"
+```
 
 5. output is saved in /tmp/urlcheck_<timestamp>.log for review eg:
 
-```less /tmp/urlcheck_20251008_123456.log```
-
-
-
+```bash
+less /tmp/urlcheck_20251008_123456.log
+```
