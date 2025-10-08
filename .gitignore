@@ -1,0 +1,11 @@
+# Ignore temporary logs
+/tmp/urlcheck_*.log
+
+# Ignore editor swap or backup files
+*~
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+
